@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+
+import File
+
+print("I am grigolko")
+
