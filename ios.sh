@@ -16,7 +16,7 @@ popush() {
 	echo "Podspec file: $podspec"
 	
 	git add -A
-	git Commit -m $message
+	git commit -m "$message"
 	git tag $version
 	git push
 	git push --tags
