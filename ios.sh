@@ -1,9 +1,5 @@
 echo ios.sh
 
-sepel() {
-	echo "sepel gregitsnii 2"
-}
-
 popush() {
 	if (( $# < 2 )); then
 		echo "Pod push function requires 2 arguments. Commit message and pod version"
