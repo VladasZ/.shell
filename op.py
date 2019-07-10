@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 import os
 import sys
+import platform
 
 if platform.system() == 'Windows':
-    os.system("ii .")
+    os.system("explorer .")
 elif platform.system() == 'Darwin':
     os.system("open .")
 elif platform.system() == 'Linux':
