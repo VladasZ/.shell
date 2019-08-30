@@ -1,7 +1,7 @@
 
 if (( $# < 2 )); then
 echo "Pod push function requires 2 arguments. Commit message and pod version"
-return
+exit 0
 fi
 
 message=$1
