@@ -21,3 +21,4 @@ Alt & 9::switchDesktopByNumber(9)
 ^Up::Send    {Volume_Up}
 ^Down::Send  {Volume_Down}
 
+!q:: Send !{f4}
