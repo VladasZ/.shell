@@ -18,7 +18,7 @@ git commit -m "$message"
 git tag $version
 git push
 git push --tags
-pod trunk push $podspec
+pod trunk push $podspec --allow-warnings
 
 cd ../..
 
