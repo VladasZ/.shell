@@ -1,1 +1,2 @@
 autohotkey
+equalizer APO
