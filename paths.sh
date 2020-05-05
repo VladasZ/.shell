@@ -7,6 +7,18 @@ function tavi {
   cd ~/dev/work/atom/Taavi-iOS
 }
 
+function gs {
+  cd ~/dev/work/tes/glove/GloveSoftware/glove_plugin/
+}
+
+function mb {
+  cd ~/dev/work/tes/glove/glovefirmware/main_board/
+}
+
+function pl {
+  pio project init --ide clion
+}
+
 function pi {
 	pod install
 }
