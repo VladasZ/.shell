@@ -7,7 +7,7 @@ function tavi {
   cd ~/dev/work/atom/Taavi-iOS
 }
 
-function gs {
+function gp {
   cd ~/dev/work/tes/glove/GloveSoftware/glove_plugin/
 }
 
