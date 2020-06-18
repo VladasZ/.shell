@@ -31,4 +31,8 @@ export PATH=$PATH:~/.shell
 export PATH=$PATH:~/.shell/git
 export PATH=$PATH:~/.shell/ios
 export PATH=$PATH:~/.shell/projects
+
+export PYTHONPATH=$PYTHONPATH:~/.deps/build_tools
+export PYTHONPATH=$PYTHONPATH:~/.deps/build_tools/Compilers
+
 echo .shell
