@@ -5,8 +5,8 @@ import platform
 
 import File
 import Debug
-import System
 import Shell
+import System
 
 
 def open(path="."):

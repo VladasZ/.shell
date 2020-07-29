@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+import os
+import sys
+import platform
+
+import Shell
+
+
+Shell.run(["ls"])
