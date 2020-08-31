@@ -9,5 +9,5 @@ built_dll = "C:/Users/vladas/dev/work/tes/glove/GloveSoftware/glove_plugin/build
 
 File.rm(clap_dll)
 File.rm(custom_dll)
-File.copy(built_dll, clap_dll)
+#File.copy(built_dll, clap_dll)
 File.copy(built_dll, custom_dll)
