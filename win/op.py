@@ -10,6 +10,7 @@ import System
 folder_name = File.folder_name()
 
 xcode_proj = "./build/" + folder_name + ".xcodeproj"
+vs_proj = "./build/" + folder_name + ".sln"
 
 
 def open(path = "."):
@@ -25,6 +26,10 @@ def open(path = "."):
 
 if File.exists(xcode_proj):
     open(xcode_proj)
+    exit()
+
+if File.exists(vs_proj):
+    open(vs_proj)
     exit()
 
 open()
