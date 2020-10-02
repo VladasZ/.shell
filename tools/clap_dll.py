@@ -3,9 +3,9 @@ import File
 
 home = expanduser("~/")
 
-glove_path = home + "dev/work/tes/glove/GloveSoftware/"
+glove_path = home + "dev/work/tes/glove/"
 
-unity_path = glove_path + "GloveUnity/Assets/CLAP/Core/Bin/x64/"
+unity_path = glove_path + "gloveunity/Assets/CLAP/Core/Bin/x64/"
 
 
 def remove_and_copy_at(path):
@@ -17,10 +17,10 @@ def remove_and_copy_at(path):
     clap_dll   = "CLAPTracker.dll"
     custom_dll = "CLAPTrackerCustom.dll"
 
-    File.rm(path + clap_dll)
+    #File.rm(path + clap_dll)
     File.rm(path + custom_dll)
 
-    File.copy(built_dll, path + clap_dll)
+    #File.copy(built_dll, path + clap_dll)
     File.copy(built_dll, path + custom_dll)
 
 
