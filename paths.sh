@@ -15,6 +15,10 @@ function mb {
   cd ~/dev/work/tes/glove/glovefirmware/main_board/
 }
 
+function sq {
+  cd ~/dev/my/SquareBalls
+}
+
 function pl {
   pio project init --ide clion
 }
