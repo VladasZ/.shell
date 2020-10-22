@@ -31,6 +31,10 @@ function pu {
 	pod update
 }
 
+function te {
+  cd ~/.deps/test_engine
+}
+
 export PATH=$PATH:~/.shell
 export PATH=$PATH:~/.shell/git
 export PATH=$PATH:~/.shell/ios
