@@ -35,6 +35,10 @@ function te {
   cd ~/.deps/test_engine
 }
 
+function sb {
+  cd ~/dev/my/SquareBalls
+}
+
 export PATH=$PATH:~/.shell
 export PATH=$PATH:~/.shell/git
 export PATH=$PATH:~/.shell/ios
