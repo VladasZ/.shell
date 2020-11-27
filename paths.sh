@@ -48,3 +48,6 @@ export PYTHONPATH=$PYTHONPATH:~/.deps/build_tools
 export PYTHONPATH=$PYTHONPATH:~/.deps/build_tools/Compilers
 
 echo .shell
+
+#.bashrc
+#source ~/.shell/paths.sh
