@@ -39,6 +39,10 @@ function sb {
   cd ~/dev/my/SquareBalls
 }
 
+function ms {
+  cd ~/dev/my/money/MoneyServer
+}
+
 export PATH=$PATH:~/.shell
 export PATH=$PATH:~/.shell/git
 export PATH=$PATH:~/.shell/ios
