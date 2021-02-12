@@ -43,6 +43,10 @@ function ms {
   cd ~/dev/my/money/MoneyServer
 }
 
+function hs {
+  cd ~/dev/my/HabitServer/
+}
+
 export PATH=$PATH:~/.shell
 export PATH=$PATH:~/.shell/git
 export PATH=$PATH:~/.shell/ios
