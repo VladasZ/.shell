@@ -44,7 +44,11 @@ function ms {
 }
 
 function hs {
-  cd ~/dev/my/HabitServer/
+  cd ~/dev/my/HabitServer
+}
+
+function se {
+  cd ~/dev/my/square_editor
 }
 
 export PATH=$PATH:~/.shell
