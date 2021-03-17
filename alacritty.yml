@@ -48,6 +48,6 @@ colors:
     white:   '0x828282'
 
 font:
-  size: 20.0
+  size: 16.0
   family: Droid Sans Mono
   
