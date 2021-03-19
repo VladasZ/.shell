@@ -60,6 +60,8 @@ export PATH=$PATH:~/deploy
 
 export PATH=$PATH:~/dev/tools
 
+export PATH=$PATH:~/.cargo/env
+
 export PYTHONPATH=$PYTHONPATH:~/.deps/build_tools
 export PYTHONPATH=$PYTHONPATH:~/.deps/build_tools/Compilers
 
