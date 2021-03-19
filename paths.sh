@@ -56,6 +56,8 @@ export PATH=$PATH:~/.shell/git
 export PATH=$PATH:~/.shell/ios
 export PATH=$PATH:~/.shell/projects
 
+export PATH=$PATH:~/deploy
+
 export PATH=$PATH:~/dev/tools
 
 export PYTHONPATH=$PYTHONPATH:~/.deps/build_tools
