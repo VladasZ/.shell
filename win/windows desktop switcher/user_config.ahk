@@ -6,7 +6,7 @@
 ; #   <- Win
 ; For more, visit https://autohotkey.com/docs/Hotkeys.htm
 
-Alt & 1::switchDesktopByNumber(1)
+Alt & `::switchDesktopByNumber(1)
 Alt & 2::switchDesktopByNumber(2)
 Alt & 3::switchDesktopByNumber(3)
 Alt & 4::switchDesktopByNumber(4)
