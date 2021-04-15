@@ -32,7 +32,11 @@ function pu {
 }
 
 function te {
-  cd ~/.deps/test_engine
+  cd ~/.rdeps/test_engine
+}
+
+function tec {
+  cd ~/.deps/test_engine_cpp
 }
 
 function sb {
