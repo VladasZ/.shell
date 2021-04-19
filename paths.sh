@@ -31,6 +31,10 @@ function pu {
 	pod update
 }
 
+function el {
+  cd ~/dev/work/poly/elastio
+}
+
 function te {
   cd ~/.rdeps/test_engine
 }
