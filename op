@@ -31,7 +31,7 @@ for file in files:
         open(file)
         exit()
 
-    if extension == ".xcodeproj" and ".xcworkspace" not in extensions:
+    if extension == ".xcodeproj":
         open(file)
         exit()
 
