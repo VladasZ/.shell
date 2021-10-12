@@ -14,4 +14,4 @@ file_size = int(sys.argv[2])
 
 
 with open(file_name, 'wb') as fout:
-    fout.write(os.urandom(file_size * 1024 * 1024 * 1024))
+    fout.write(os.urandom(file_size * 1024 * 1024))
