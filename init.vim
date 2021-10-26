@@ -39,7 +39,10 @@ Plug 'maxmellon/vim-jsx-pretty'
 call plug#end()
 
 let NERDTreeShowHidden = 1
-set shell=powershell
+
+if ($OS == 'Windows_NT')
+    set shell=powershell
+endif
 
 colorscheme codedark
 
