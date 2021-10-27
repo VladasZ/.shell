@@ -10,6 +10,9 @@ set expandtab
 set autoindent
 set fileformat=unix
 
+let &titlestring = expand('%:p') 
+set title 
+
 call plug#begin('~/.vim/plugged')
 
 Plug 'preservim/nerdtree'
@@ -50,6 +53,12 @@ cnoreabbrev ak Ak
 
 command Inst execute "PlugInstall"
 cnoreabbrev inst Inst
+
+command Tn execute "tabnew"
+cnoreabbrev tn Tn
+
+command Tc execute "tabclose"
+cnoreabbrev tc Tc
 
 lua <<EOF
     print('helloy')
