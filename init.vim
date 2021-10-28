@@ -19,8 +19,6 @@ Plug 'preservim/nerdtree'
 
 Plug 'tomasiser/vim-code-dark'
 
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
 " Rust
 Plug 'neovim/nvim-lspconfig'
 Plug 'simrat39/rust-tools.nvim'
