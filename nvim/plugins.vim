@@ -19,5 +19,9 @@ Plug 'L3MON4D3/LuaSnip'
 Plug 'phanviet/vim-monokai-pro'
 Plug 'sainnhe/edge'
 
+" Telescope
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+
 
 call plug#end()

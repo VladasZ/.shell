@@ -1,5 +1,5 @@
 
-command Al execute "e~/.shell/nvim/init.vim"
+command Al execute "NERDTree ~/.shell/nvim/"
 cnoreabbrev al Al
 
 command Ak execute "so %"
@@ -19,3 +19,6 @@ cnoreabbrev nt Nt
 
 command Ntc execute "NERDTreeClose"
 cnoreabbrev ntc Ntc
+
+command Ok execute "quitall"
+cnoreabbrev ok Ok
