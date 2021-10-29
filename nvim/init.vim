@@ -15,12 +15,13 @@ set expandtab
 set autoindent
 set fileformat=unix
 
-let &titlestring = expand('%:p') 
-set title 
-
+set guitablabel=%t
 
 let NERDTreeShowHidden = 1
 
+"Tabs
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#formatter = 'unique_tail'
 
 if ($OS == 'Windows_NT')
     set shell=powershell
