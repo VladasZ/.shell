@@ -1,87 +1,10 @@
-set mouse=a
-set encoding=utf-8
-set number
-set noswapfile
 
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
-set expandtab
-set autoindent
-set fileformat=unix
-
-let &titlestring = expand('%:p') 
-set title 
-
-call plug#begin('~/.vim/plugged')
-
-Plug 'preservim/nerdtree'
-
-Plug 'tomasiser/vim-code-dark'
-
-" Rust
-Plug 'neovim/nvim-lspconfig'
-Plug 'simrat39/rust-tools.nvim'
-
-Plug 'hrsh7th/cmp-nvim-lsp'
-Plug 'hrsh7th/cmp-buffer'
-Plug 'hrsh7th/cmp-path'
-Plug 'hrsh7th/cmp-cmdline'
-Plug 'hrsh7th/nvim-cmp'
-
-" For vsnip users.
-Plug 'hrsh7th/cmp-vsnip'
-Plug 'hrsh7th/vim-vsnip'
-
-" Optional dependencies
-Plug 'nvim-lua/popup.nvim'
-Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim'
-
-" Debugging (needs plenary from above as well)
-Plug 'mfussenegger/nvim-dap'
-
-call plug#end()
-
-let NERDTreeShowHidden = 1
-
-nnoremap <leader>ff <cmd>Telescope find_files<cr>
-
-if ($OS == 'Windows_NT')
-    set shell=powershell
-endif
-
-colorscheme codedark
-
-if (has('termguicolors'))
-  set termguicolors
-endif
-
-command Al execute "e~/.shell/init.vim"
-cnoreabbrev al Al
-
-command Ak execute "so %"
-cnoreabbrev ak Ak
-
-command Inst execute "PlugInstall"
-cnoreabbrev inst Inst
-
-command Tn execute "tabnew"
-cnoreabbrev tn Tn
-
-command Tc execute "tabclose"
-cnoreabbrev tc Tc
-
-command Nt execute "NERDTree"
-cnoreabbrev nt Nt
-
-command Ntc execute "NERDTreeClose"
-cnoreabbrev ntc Ntc
-
-lua <<EOF
-    print('helloy')
-    require('rust-tools').setup({})
-EOF
+" Rust from video
+" Plug 'neovim/nvim-lspconfig'
+" Plug 'hrsh7th/nvim-cmp'
+" Plug 'hrsh7th/cmp-nvim-lsp'
+" Plug 'saadparwaiz1/cmp_luasnip'
+" Plug 'L3MON4D3/LuaSnip'
 
 
 lua << EOF
