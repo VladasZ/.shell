@@ -1,4 +1,6 @@
 
+set nocompatible
+
 call plug#begin('~/.vim/plugged')
 
 Plug 'preservim/nerdtree'
@@ -14,8 +16,8 @@ Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'L3MON4D3/LuaSnip'
 
-"Tabs
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+Plug 'phanviet/vim-monokai-pro'
+Plug 'sainnhe/edge'
+
 
 call plug#end()

@@ -15,19 +15,17 @@ set expandtab
 set autoindent
 set fileformat=unix
 
-set guitablabel=%t
-
 let NERDTreeShowHidden = 1
-
-"Tabs
-let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tabline#formatter = 'unique_tail'
 
 if ($OS == 'Windows_NT')
     set shell=powershell
 endif
 
-colorscheme codedark
+syntax enable
+"set background=dark
+colorscheme edge
+
+" colorscheme codedark
 
 if (has('termguicolors'))
   set termguicolors
