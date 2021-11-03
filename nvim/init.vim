@@ -1,6 +1,6 @@
 
 source ~/.shell/nvim/plugins.vim
-source ~/.shell/nvim/rust1.vim
+"source ~/.shell/nvim/rust1.vim
 source ~/.shell/nvim/commands.vim 
 
 set mouse=a
@@ -22,18 +22,15 @@ if ($OS == 'Windows_NT')
 endif
 
 syntax enable
-"set background=dark
 colorscheme edge
-
-" colorscheme codedark
 
 if (has('termguicolors'))
   set termguicolors
 endif
 
-" Find files using Telescope command-line sugar.
-nnoremap <leader>ff <cmd>Telescope find_files<cr>
-nnoremap <leader>fg <cmd>Telescope live_grep<cr>
-nnoremap <leader>fb <cmd>Telescope buffers<cr>
-nnoremap <leader>fh <cmd>Telescope help_tags<cr>
+"## Auto saving when leaving insert mode
+autocmd InsertLeave * silent! update
 
+" Use a faster updatetime so vim-gutter reflects changes faster, as well as
+" whatever LSP plugin we're using
+set updatetime=250
