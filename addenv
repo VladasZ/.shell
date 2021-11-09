@@ -8,6 +8,7 @@ if len(args) < 3:
     print("addenv script accepts 2 arguments: variable name and value")
     exit()
 
+
 name = args[1]
 value = args[2]
 
