@@ -1,4 +1,29 @@
-;;; $DOOMDIR/config.el -*- lexical-binding: t; -*-
+
+(add-to-list 'load-path "~/.doom.d")
+
+(load "paths.el")
+
+
+(xterm-mouse-mode 1)
+(neotree)
+
+(setq confirm-kill-emacs nil)
+
+(defun al () (interactive) (find-file "~/.doom.d/config.el"))
+
+(defun ev () (interactive) (eval-buffer))
+
+
+(defun bu () (interactive) (find-file "~/.deps/build_tools/Build.py"))
+
+(defun map-key (key func)
+  (global-set-key (kbd key) func))
+
+(map-key "M-<right>"   'windmove-right)
+(map-key "M-<left>"    'windmove-left)
+
+
+;; $DOOMDIR/config.el -*- lexical-binding: t; -*-
 
 ;; Place your private configuration here! Remember, you do not need to run 'doom
 ;; sync' after modifying this file!
