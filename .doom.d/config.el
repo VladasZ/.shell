@@ -5,8 +5,8 @@
 
 
 (xterm-mouse-mode 1)
-(setq treemacs-width 20)
-(treemacs)
+;; (setq treemacs-width 20)
+;; (treemacs)
 
 (setq confirm-kill-emacs nil)
 

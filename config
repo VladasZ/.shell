@@ -31,3 +31,8 @@ Host pi
     Hostname 192.168.0.62
     User pi
     ForwardAgent yes
+
+Host multi
+    Hostname 192.168.64.2
+    User ubuntu
+    ForwardAgent yes
