@@ -33,6 +33,7 @@ Host pi
     ForwardAgent yes
 
 Host multi
-    Hostname 192.168.64.2
+    Hostname 172.31.80.102
     User ubuntu
     ForwardAgent yes
+    IdentityFile ~/.ssh/id_ed25519
